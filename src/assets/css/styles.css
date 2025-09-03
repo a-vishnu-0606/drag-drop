@@ -1,0 +1,70 @@
+.card {
+  padding: 12px 16px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #ffffff;
+  cursor: grab;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+}
+.card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+.card.dragging {
+  opacity: 0.6;
+}
+
+.mainarea {
+  width: 900px;
+  min-height: 500px;
+  padding: 20px;
+  border: 2px solid #bbb;
+  border-radius: 12px;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.mainarea.is-over {
+  background: #e8f9e8;
+  border-color: #4ade80;
+}
+
+.sidebar {
+  width: 250px;
+  background: #f3f4f6;
+  padding: 20px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.sidebar.is-over {
+  background: #d1fae5;
+}
+.sidebar h2 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #111;
+}
+
+.container {
+  display: flex;
+}
+
+.container1 {
+  margin-left: 350px;
+  flex: 1;
+  padding: 20px;
+  min-height: 100vh;
+}
+.container1 h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */

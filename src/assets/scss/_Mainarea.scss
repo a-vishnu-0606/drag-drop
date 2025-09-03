@@ -1,0 +1,19 @@
+
+.mainarea {
+  width: 900px; 
+  min-height: 500px;
+  padding: 20px;
+  border: 2px solid #bbb;
+  border-radius: 12px;
+  background: #fafafa;
+
+  display: flex;
+  flex-direction: column;  
+  // gap: 10px;
+  box-sizing: border-box;
+
+  &.is-over {
+    background: #e8f9e8;
+    border-color: #4ade80;
+  }
+}
